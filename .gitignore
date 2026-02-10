@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# PyTorch
+*.pt
+*.pth
+
+# Data
+data/
+datasets/
+
+# Logs
+logs/
+runs/
+
+# OS
+.DS_Store
