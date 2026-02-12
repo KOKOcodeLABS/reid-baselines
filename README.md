@@ -14,3 +14,12 @@
   - PyTorch
 - Deterministic flags enabled where possible
 - cuDNN benchmarking disabled
+
+## Datasets Acquired
+
+- Market-1501
+- DukeMTMC-reID
+- CUHK03
+
+All datasets stored unmodified under data/raw/.
+File counts verified against official documentation.
