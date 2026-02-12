@@ -1,7 +1,7 @@
 ## Environment Lock
 
 - OS: Windows
-- Python: 3.12.7
+- Python: 3.14.3
 - Environment: venv (.venv)
 - PyTorch: 2.0.1
 
