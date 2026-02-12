@@ -3,7 +3,7 @@
 - OS: Windows
 - Python: 3.14.3
 - Environment: venv (.venv)
-- PyTorch: 2.0.1
+- PyTorch: 2.10.0
 
 ## Random Seed Policy
 
