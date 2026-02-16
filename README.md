@@ -21,7 +21,6 @@
 - DukeMTMC-reID
 - CUHK03
 
-
 ## Implemented Phases
 
 - Phase 0 – Environment setup
@@ -44,16 +43,15 @@ Baseline training pipeline operational on Market1501.
 
 reid-baselines/
 ├── src/
-│   ├── datasets/
-│   ├── models/
-│   ├── losses/
-│   ├── samplers/
-│   ├── engine/
-│   └── metrics/
+│ ├── datasets/
+│ ├── models/
+│ ├── losses/
+│ ├── samplers/
+│ ├── engine/
+│ └── metrics/
 ├── scripts/
 ├── runs/ (ignored)
 ├── data/ (ignored)
-
 
 All datasets stored unmodified under data/raw/.
 File counts verified against official documentation.
