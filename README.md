@@ -21,5 +21,24 @@
 - DukeMTMC-reID
 - CUHK03
 
+
+## Implemented Phases
+
+- Phase 0 – Environment setup
+
+- Phase 1–2 – Dataset cleaning pipeline
+
+- Phase 3 – Dataset registry & loader
+
+- Phase 4 – ResNet50 + BNNeck baseline
+
+- Phase 5 – CE + BatchHard + PK sampler
+
+- Phase 6 – Training & evaluation loop (mAP, CMC)
+
+## Current Status:
+
+Baseline training pipeline operational on Market1501.
+
 All datasets stored unmodified under data/raw/.
 File counts verified against official documentation.
