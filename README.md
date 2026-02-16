@@ -40,5 +40,20 @@
 
 Baseline training pipeline operational on Market1501.
 
+## Project Structure
+
+reid-baselines/
+├── src/
+│   ├── datasets/
+│   ├── models/
+│   ├── losses/
+│   ├── samplers/
+│   ├── engine/
+│   └── metrics/
+├── scripts/
+├── runs/ (ignored)
+├── data/ (ignored)
+
+
 All datasets stored unmodified under data/raw/.
 File counts verified against official documentation.
