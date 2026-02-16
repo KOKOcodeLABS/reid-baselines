@@ -1,8 +1,12 @@
 # Python
 __pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.log
+*.log
+
 
 # Environments
 .venv/
@@ -14,8 +18,8 @@ env/
 *.pth
 
 # Data
-data/
-datasets/
+data/raw/
+data/clean/
 
 # Logs
 logs/
@@ -23,3 +27,9 @@ runs/
 
 # OS
 .DS_Store
+Thumbs.db
+
+
+#IDE
+.vscode/
+.idea/
