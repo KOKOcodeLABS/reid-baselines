@@ -35,23 +35,23 @@
 
 - Phase 6 – Training & evaluation loop (mAP, CMC)
 
-## Current Status:
-
-Baseline training pipeline operational on Market1501.
-
 ## Project Structure
 
-reid-baselines/
-├── src/
-│ ├── datasets/
-│ ├── models/
-│ ├── losses/
-│ ├── samplers/
-│ ├── engine/
-│ └── metrics/
-├── scripts/
-├── runs/ (ignored)
-├── data/ (ignored)
+reid-baselines/<br>
+├── src/<br>
+│ ├── datasets/<br>
+│ ├── models/<br>
+│ ├── losses/<br>
+│ ├── samplers/<br>
+│ ├── engine/<br>
+│ └── metrics/<br>
+├── scripts/<br>
+├── runs/ (ignored)<br>
+├── data/ (ignored)<br>
 
-All datasets stored unmodified under data/raw/.
+## Current Status:
+
+Baseline training pipeline operational on Market1501.<br>
+
+All datasets stored unmodified under data/raw/.<br>
 File counts verified against official documentation.
