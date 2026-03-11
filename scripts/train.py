@@ -63,11 +63,19 @@ triplet_loss = BatchHardTripletLoss()
 
 optimizer = torch.optim.Adam(model.parameters(), lr=config["lr"])
 
+scheduler = torch.optim.lr_scheduler.StepLR(
+    optimizer,
+    step_size=40,
+    gamma=0.1
+)
+
 
 for epoch in range(config["epochs"]):
     stats = train_one_epoch(model, train_loader, optimizer, ce_loss, triplet_loss)
 
     eval_stats = evaluate(model, query_loader, gallery_loader)
+
+    scheduler.step()
 
     log = {
         "epoch": epoch,
